@@ -20,9 +20,12 @@
 ; Include forcefield parameters
 #include "charmm27.ff/forcefield.itp"
 
+; Include ligand parameters
+#include "ribaviri.prm"
+
 [ moleculetype ]
 ; Name            nrexcl
-Protein_chain_B     3
+Protein_chain_B     3            
 
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
@@ -16882,6 +16885,9 @@ Protein_chain_B     3
 #include "posre.itp"
 #endif
 
+; Include ligand topology
+#include "ribaviri.itp"
+
 ; Include water topology
 #include "charmm27.ff/tip3p.itp"
 
@@ -16902,3 +16908,4 @@ Protein
 [ molecules ]
 ; Compound        #mols
 Protein_chain_B     1
+ribaviri            1
