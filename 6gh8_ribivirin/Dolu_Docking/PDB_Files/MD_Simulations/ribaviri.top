@@ -1,5 +1,5 @@
 #include "charmm36-feb2021.ff/forcefield.itp"
-#include "charmm36-feb2021.ff/ffnonbonded.itp"
+#include "charmm36-feb2021.ff/ffbonded.itp"
 
 ; additional params for the molecule
 #include "ribaviri.prm"
