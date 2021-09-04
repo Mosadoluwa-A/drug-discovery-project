@@ -18,8 +18,7 @@
 ;
 
 ; Include forcefield parameters
-#include "charmm27.ff/forcefield.itp"
-#include "charmm27.ff/gb.itp"
+#include "charmm36-feb2021.ff/forcefield.itp"
 
 ; Include ligand parameters
 #include "ribaviri.prm"
