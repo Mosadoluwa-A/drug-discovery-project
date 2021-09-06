@@ -16917,9 +16917,10 @@ Protein_chain_B     3
 
 [ system ]
 ; Name
-Protein
+Protein in water
 
 [ molecules ]
 ; Compound        #mols
 Protein_chain_B     1
 ribaviri            1
+SOL             38089
