@@ -16923,4 +16923,5 @@ Protein in water
 ; Compound        #mols
 Protein_chain_B     1
 ribaviri            1
-SOL             38089
+SOL         38085
+NA               4
