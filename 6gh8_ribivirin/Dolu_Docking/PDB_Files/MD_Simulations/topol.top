@@ -16902,6 +16902,11 @@ Protein_chain_B     3
 ; Include ligand topology
 #include "ribaviri.itp"
 
+; Ligand position restraints
+#ifdef POSRES
+#include "posre_ribaviri.itp"
+#endif
+
 ; Include water topology
 #include "./charmm36-feb2021.ff/tip3p.itp"
 
