@@ -20,6 +20,9 @@
 ; Include forcefield parameters
 #include "./charmm36-feb2021.ff/forcefield.itp"
 
+; Include ligand parameters
+#include "jz4.prm"
+
 [ moleculetype ]
 ; Name            nrexcl
 Protein_chain_A     3
@@ -24601,6 +24604,9 @@ Protein_chain_A     3
 #ifdef POSRES
 #include "posre.itp"
 #endif
+
+; Include ligand topology
+#include "jz4.itp"
 
 ; Include water topology
 #include "./charmm36-feb2021.ff/tip3p.itp"
