@@ -30,7 +30,7 @@ GROMACS:      gmx mdrun, version 2020.1-Ubuntu-2020.1-1
 Executable:   /usr/bin/gmx
 Data prefix:  /usr
 Working dir:  /home/mozdev/drug-discovery-project/6gh8_ribivirin/Dolu_Docking/PDB_Files/MD_Simulations
-Process ID:   78
+Process ID:   501
 Command line:
   gmx mdrun -v -deffnm em
 
@@ -340,7 +340,7 @@ J. Comp. Chem. 13 (1992) pp. 952-962
 
 Note that activating steepest-descent energy minimization via the integrator .mdp option and the command gmx mdrun may be available in a different form in a future version of GROMACS, e.g. gmx minimize and an .mdp option.
 Initiating Steepest Descents
-Started Steepest Descents on rank 0 Wed Sep  8 10:10:29 2021
+Started Steepest Descents on rank 0 Fri Sep 17 22:40:56 2021
 
 
 Steepest Descents:
@@ -412,5 +412,5 @@ but did not reach the requested Fmax < 1000.
 Potential Energy  =  3.8798481e+17
 Maximum force     =            inf on atom 1782
 Norm of force     =            inf
-Finished mdrun on rank 0 Wed Sep  8 10:10:34 2021
+Finished mdrun on rank 0 Fri Sep 17 22:41:02 2021
 
