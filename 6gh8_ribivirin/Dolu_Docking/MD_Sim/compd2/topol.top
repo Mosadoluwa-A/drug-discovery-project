@@ -16917,9 +16917,11 @@ Protein_chain_B     3
 
 [ system ]
 ; Name
-Protein
+Protein in water
 
 [ molecules ]
 ; Compound        #mols
 Protein_chain_B     1
 ribav2              1
+SOL         85699
+NA               4
