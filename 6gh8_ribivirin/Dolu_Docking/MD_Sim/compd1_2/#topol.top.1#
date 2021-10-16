@@ -16917,10 +16917,9 @@ Protein_chain_B     3
 
 [ system ]
 ; Name
-Protein in water
+Protein
 
 [ molecules ]
 ; Compound        #mols
 Protein_chain_B     1
 LIG                 1
-SOL              6330
