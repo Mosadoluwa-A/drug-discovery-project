@@ -53,8 +53,8 @@ O=C      HNCO   1      0.144726    0.310857
 O=C      HCMM   1      0.242324    0.214978 
 
 [ moleculetype ]
-; Name nrexcl 
-amb17608546_fix 3
+; Name               nrexcl 
+LIG                     3
 
 [ atoms ] 
 ; nr type resnr resid atom cgnr charge mass 
