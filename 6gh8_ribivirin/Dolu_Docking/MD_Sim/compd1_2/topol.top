@@ -20,8 +20,7 @@
 ; Include forcefield parameters
 #include "./charmm36-feb2021.ff/forcefield.itp"
 
-; Include ligand parameters
-#include "amb17608546_fix.par"
+#include "amb17608546_fix.itp"
 
 [ moleculetype ]
 ; Name            nrexcl
@@ -16899,8 +16898,7 @@ Protein_chain_B     3
 #include "posre.itp"
 #endif
 
-; Include ligand topology
-#include "amb17608546_fix.itp"
+
 
 ; Include water topology
 #include "./charmm36-feb2021.ff/tip3p.itp"
