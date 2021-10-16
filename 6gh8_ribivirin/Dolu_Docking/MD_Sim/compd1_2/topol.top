@@ -16898,7 +16898,10 @@ Protein_chain_B     3
 #include "posre.itp"
 #endif
 
-
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_amb17608546.itp"
+#endif
 
 ; Include water topology
 #include "./charmm36-feb2021.ff/tip3p.itp"
